@@ -1,0 +1,169 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.title {
+    text-align: center;
+    padding-top: 10%;
+    font-family: 'Suez One', serif;
+    font-size: 156px;
+    
+}
+
+/*---------------------------------------------------Footer------------------------------------------------------------*/
+
+footer{
+    width: 100%;
+    background: #202020;
+    color: black;
+    /* padding: 40px; */
+}
+
+.container-footer-all {
+    width: 100%;
+    max-width: 1600px;
+    margin: auto; /*siempre centrado*/
+    background: #d4d4d4;
+    padding: 40px;
+    margin-top: 30px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: center;
+}
+
+.column1{
+    max-width: 400px;
+
+}
+.column1 h1{
+    font-size: 22px;
+}
+.column1 p{
+    font-size: 14px;
+    color: #160606;
+    margin-top: 20px;
+    
+}
+.column2{
+    max-width: 400px; /*ancho maximo*/
+
+}
+.column2 h1{
+    font-size: 22px;
+
+}
+.row{
+    margin-top: 10px;
+    display: flex;
+}
+.row i{
+    width: 40px;
+    height: 36px;
+}
+
+.row label{
+    margin-top: 1px;
+    margin-left: 20px;
+    color: #200a17;
+    max-width: 200px;
+}
+
+
+.column3 {
+    max-width: 400px;
+}
+
+.column3 h1{
+    font-size: 22px;
+    
+    
+}
+
+.row2{
+    margin-top: 10px;
+    margin-left: 10px;
+    /* display: flex; */
+}
+.row2 i{
+    width: 35px;
+    height: 36px;
+}
+.row2 label {
+    margin-top: 5px;
+    margin-left: 2px;
+    max-width: 200px;
+}
+
+.container-footer{
+    width: 100%;
+    background-color: #101010;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+   
+}
+.copyright{
+    color: #c7c7c7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a{
+    text-decoration: none;
+    color: #c7c7c7;
+}
+
+/*-----------------------------Figura contacto----------------------*/
+
+.imagesSucursales {
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+.imagesContacto {
+    width: 500px;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+
+/*------------------------------Mapas personalizados----------------*/
+.maps {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+
+}
+
+.titleh2 {
+
+    text-align: center;
+    margin-top: 35px;
+    text-decoration:underline;
+}
+
+.titleh3 {
+
+    padding: 30px;
+}
+
+.titleSucursales {
+    margin-top: 110px;
+    padding-left: 35px;
+}
+
+.textCarouselBorrachito {
+    font-family: Arial, Helvetica, sans-serif black;
+}
+
